@@ -9,6 +9,7 @@ SESSION 5
 
 
 **S5 Folder Structure**
+```
 S5
 ├── Assignment
 │   ├── model.py
@@ -21,3 +22,4 @@ S5
 │   └── model_architecture.jpg
 ├── S5Notebook.ipynb
 └── S5Notes.ipynb
+```
