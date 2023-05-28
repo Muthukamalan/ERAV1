@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+credential*.*
+__pycache__/
+*.pyc
+data/
+course_info materials/
+.vscode/
