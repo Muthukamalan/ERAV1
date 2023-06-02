@@ -28,8 +28,6 @@ S5
 Net Model Architecture.
 ![ Net model architecture ](../pics/model_architecture.jpg)
 
-![](https://github.com/Muthukamalan/ERAV1/blob/main/session%205/pics/model_architecture.jpg "Net Model")
-
 
 RF and Params # Calculations
 
