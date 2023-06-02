@@ -28,6 +28,9 @@ S5
 Net Model Architecture.
 ![ Net model architecture ](../pics/model_architecture.jpg)
 
+<p>
+    <img src="../pics/model_architecture.jpg" width="500" height="600" />
+</p>
 
 RF and Params # Calculations
 
