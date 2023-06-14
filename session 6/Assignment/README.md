@@ -3,25 +3,54 @@
 ## Backpropagration
 
 
-- Yet to do WIP
+![W5](https://github.com/Muthukamalan/ERAV1/assets/50898904/920e0f34-b7b2-4871-90b5-b38d1da353ab)
+$\frac{\partial E~Total}{\partial w_5} = (a~o_1 - t_1) * a~o_1 * (1-a~o_1) * a~h_1$
+
+
+![W6](https://github.com/Muthukamalan/ERAV1/assets/50898904/97a6a3dd-9b85-4404-b812-6ad7643be285)
+$\frac{\partial E~Total}{\partial w_6} =  (a~o_1 - t_1) * a~o_1 * (1-a~o_1) * a~h_2$
+
+
+![W7](https://github.com/Muthukamalan/ERAV1/assets/50898904/711b52c6-5a6c-492f-af17-b6039487eeb0)
+$\frac{\partial E~Total}{\partial w_7} =  (a~o_2 - t_2) * a~o_2 * (1-a~o_2) * a~h_1$
+
+
+![W8](https://github.com/Muthukamalan/ERAV1/assets/50898904/13c59b6b-01e3-4889-a3cc-89e3c7458969)
+$\frac{\partial E~Total}{\partial w_8} =  (a~o_2 - t_2) * a~o_2 * (1-a~o_2) * a~h_2$
+
+
+
+![a_h1](https://github.com/Muthukamalan/ERAV1/assets/50898904/9b868b6a-b221-4b1a-bc54-ee1dfae2db22)
+$\frac{\partial E~Total}{\partial a~h_1} =  ((a~o_1 - t_1) * a~o_1 * (1-a~o_1) * w_5)+ ((a~o_2 - t_2) * a~o_2 * (1-a~o_2) * w_7)$
+
+
+![a_h2](https://github.com/Muthukamalan/ERAV1/assets/50898904/98cc8e26-5073-4c45-a9ba-cf025f2d6b14)
+$\frac{\partial E~Total}{\partial a~h_2} =  ((a~o_1 - t_1) * a~o_1 * (1-a~o_1) * w_6)+ ((a~o_2 - t_2) * a~o_2 * (1-a~o_2) * w_8)$
+
+
+![W1](https://github.com/Muthukamalan/ERAV1/assets/50898904/7855d999-0059-4e34-83fb-eda46138ffa0)
+$\frac{\partial E~Total}{\partial w_1} =  ((a~o_1 - t_1) * a~o_1 * (1-a~o_1) * w_5)+ ((a~o_2 - t_2) * a~o_2 * (1-a~o_2) * w_7) *  a~h_1 (1-a~h_1) * i_1$ 
+
+
+![W2](https://github.com/Muthukamalan/ERAV1/assets/50898904/3c8e34f7-cb92-48cb-8e75-662e2470dfef)
+$\frac{\partial E~Total}{\partial w_2} =((a~o_1 - t_1) * a~o_1 * (1-a~o_1) * w_5)+ ((a~o_2 - t_2) * a~o_2 * (1-a~o_2) * w_7) *  a~h_1 (1-a~h_1) * i_2$ 
+
+
+![W3](https://github.com/Muthukamalan/ERAV1/assets/50898904/98b5e4b1-cbd3-46cd-bf21-b0a250189465)
+$\frac{\partial E~Total}{\partial w_3} = ((a~o_1 - t_1) * a~o_1 * (1-a~o_1) * w_6)+ ((a~o_2 - t_2) * a~o_2 * (1-a~o_2) * w_8) * a~h_2 * ( 1-a~h_2) * i_1$
+
+
+![W4](https://github.com/Muthukamalan/ERAV1/assets/50898904/e39aca8a-3c2c-4c05-8d89-9b179b87d05f)
+$\frac{\partial E~Total}{\partial w_4} = ((a~o_1 - t_1) * a~o_1 * (1-a~o_1) * w_6)+ ((a~o_2 - t_2) * a~o_2 * (1-a~o_2) * w_8) * a~h_2 * ( 1-a~h_2) * i_2$
 
 
 
 
+Learning Rate =1
+![backprop eta=1](https://github.com/Muthukamalan/ERAV1/assets/50898904/87ac0263-6e7a-4da3-8dff-e4a89d29da9a)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Learning Rate =10
+![backprop eta=10](https://github.com/Muthukamalan/ERAV1/assets/50898904/81cd1486-1420-4c32-ad35-b6250f3a9e44)
 
 
 
